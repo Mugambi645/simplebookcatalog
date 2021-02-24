@@ -13,7 +13,7 @@ class Language(models.Model):
 
 class Genre(models.Model):
     #model representing the book genre
-    name = models.CharField(max_length=200, help_text="Enter a book genre(eg science fiction")
+    name = models.CharField(max_length=200, help_text="Enter a book genre(eg science fiction)")
 
     def __str__(self):
         #string representing the model object
